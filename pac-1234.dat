@@ -101,11 +101,6 @@ function FindProxyForURL(url, host)
    
 
 
-   if ( hostOrDomainIs(host, "parasail.starhub.com"))
-   {
-      return 'DIRECT';
-   }
-
 
 
 
