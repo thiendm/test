@@ -189,7 +189,8 @@ function FindProxyForURL(url, host)
    
 
 
-   if ( hostOrDomainIs(host, "parasail.starhub.com"))
+   if ( hostOrDomainIs(host, "parasail.starhub.com") ||
+	hostOrDomainIs(host, "30000714-menlotest.com"))
    {
       return 'DIRECT';
    }
