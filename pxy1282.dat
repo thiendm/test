@@ -189,7 +189,8 @@ function FindProxyForURL(url, host)
    
 
 
-   if ( hostOrDomainIs(host, "30000714-menlotest.com"))
+   if ( hostOrDomainIs(host, "30000714-menlotest.com") ||
+	hostOrDomainIs(host, "premierfunds.co.uk"))
    {
       return 'DIRECT';
    }
