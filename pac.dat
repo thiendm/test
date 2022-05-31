@@ -195,12 +195,12 @@ function FindProxyForURL(url, host)
    }
 
 
-   if ( url.substring(0, 39) === 'https://send.dococab.jp/receive/auth.do' )
+   if ( url.substring(0, 39) == 'https://send.dococab.jp/receive/auth.do' )
    {
       return '54.71.43.88:3129; DIRECT';
    }
 
-   if ( url.substring(0, 41) === 'https://send.dococab.jp/receive/login2.do' )
+   if ( url.substring(0, 41) == 'https://send.dococab.jp/receive/login2.do' )
    {
       return '54.186.58.109:3129; DIRECT';
    }
